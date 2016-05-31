@@ -9,6 +9,13 @@
     
 #### Getting started (for Windows):
     1.  Install R Studio (R version  version 3.1.1 or later).
+    2.  Install required R packages
+            shiny
+            Biostrings
+            BiocGenerics
+            parallel
+            IRanges
+            XVector
     2.  Download the SubVis folder (source code and test files).
     3.  Change the current working directory to the SubVis folder
         OR
@@ -17,7 +24,7 @@
         Example:  source('C:\\Users\\sabarlowe\\Desktop\\SubVis\\ui.R')
     5.  From the command line, execute the app with the runApp() command.
         This will launch the application.
-        Example:  runApp('../SubVis')
+        Example:  runApp('..\\SubVis')
 
 #### Layout
     After launching, there are two main tabs:  Options and Viz
