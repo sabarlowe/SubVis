@@ -12,19 +12,15 @@
     2.  Install required R packages:
             shiny
             Biostrings
-            BiocGenerics
-            parallel
-            IRanges
-            XVector
     3.  Download the SubVis folder (source code and test files).
     4.  Change the current working directory to the SubVis folder
         OR
         open ui.R in the SubVis folder.
     5.  From the command line, source ui.R with the source() command.
-        Example:  source('C:\\Users\\sabarlowe\\Desktop\\SubVis\\ui.R')
+        Example:  source('C:/Users/sabarlowe/Desktop/SubVis/ui.R')
     6.  From the command line, execute the app with the runApp() command.
         This will launch the application.
-        Example:  runApp('..\\SubVis')
+        Example:  runApp('C:/Users/sabarlowe/Desktop/SubVis')
 
 #### Layout
     After launching, there are two main tabs:  Options and Viz
