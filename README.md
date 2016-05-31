@@ -8,14 +8,13 @@
     sequence alignment.
     
 #### Getting started (for Windows):
-    1.  Install R Studio (R version  version 3.1.1 or later).
-    2.  Install required R packages:
-            shiny
-            Biostrings
+    1.  Install R Studio (R version  version 3.3.0 or later).
+    2.  Install required R packages (and any dependencies):
+            'shiny' 
+            'Biostrings'
     3.  Download the SubVis folder (source code and test files).
-    4.  Change the current working directory to the SubVis folder
-        OR
-        open ui.R in the SubVis folder.
+    4.  Create a new SubVis project in RStudio by going to File --> New Project... --> Existing Directory
+        and then selecting the SubVis directory.
     5.  From the command line, source ui.R with the source() command.
         Example:  source('C:/Users/sabarlowe/Desktop/SubVis/ui.R')
     6.  From the command line, execute the app with the runApp() command.
